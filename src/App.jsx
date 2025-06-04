@@ -9,10 +9,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/absentminotaur">
       <Navbar />
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/banner" element={<Banner />} />
       </Routes>
