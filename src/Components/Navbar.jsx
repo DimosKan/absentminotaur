@@ -16,9 +16,9 @@ export default function Navbar() {
   const navigation = [
   { name: t("menuElement1"), href: '/#essay' },
   { name: t("menuElement2"), href: '/#poem' },
-  { name: t("menuElement3"), href: '/gallery' },
+  { name: t("menuElement3"), href: '/absentminotaur/gallery' },
   { name: t("menuElement4"), href: '/#bio' },
-  { name: t("menuElement5"), href: '/banner' },
+  { name: t("menuElement5"), href: '/absentminotaur/banner' },
 ];
   const location = useLocation();
   const navigate = useNavigate();
@@ -105,13 +105,13 @@ const handleLanguageChange = (lang) => {
             {/* Language toggle */}
             <div className="flex space-x-2 items-center">
               <img
-                src="/flags/greek-flag.svg"
+                src="/absentminotaur/flags/greek-flag.svg"
                 alt="Greek"
                 onClick={() => handleLanguageChange('gr')}
                 className={`w-8 h-6 cursor-pointer transition-opacity duration-200 ${language === 'gr' ? 'opacity-100' : 'opacity-70'}`}
               />
               <img
-                src="/flags/british-flag.svg"
+                src="/absentminotaur/flags/british-flag.svg"
                 alt="English"
                 onClick={() => handleLanguageChange('en')}
                 className={`w-8 h-6 cursor-pointer transition-opacity duration-200 ${language === 'en' ? 'opacity-100' : 'opacity-70'}`}

@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-    <BrowserRouter basename="/absentminotaur">
+    <BrowserRouter basename="/absentminotaur/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

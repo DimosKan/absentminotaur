@@ -12,7 +12,7 @@ export default function Biography() {
       {/* Left column - Artist picture */}
       <div className="flex-shrink-0 w-48 h-48 md:w-64 md:h-64 rounded-lg overflow-hidden shadow-lg">
         <img
-          src="../gallery/tsotsorou.jpg"
+          src="../absentminotaur/gallery/tsotsorou.jpg"
           alt="Artist Portrait"
           className="w-full h-full object-cover"
         />
