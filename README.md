@@ -24,7 +24,7 @@
 ```
 
 ---
-
+```
 Structure:
     src/
     │
@@ -34,7 +34,7 @@ Structure:
     ├── App.jsx             # Main entry point
     ├── main.jsx            # Renders the React app
     └── index.html          # HTML template
-
+```
 ---
 
 Deployment:
