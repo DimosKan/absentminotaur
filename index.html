@@ -14,9 +14,8 @@
     <div id="root"></div>
   </body>
       <script type="text/javascript">
-      // Redirect only if not already on /absentminotaur/
       const pathname = window.location.pathname;
-      if (!pathname.startsWith("/absentminotaur/")) {
+      if (!pathname.endsWith("/absentminotaur/")) {
         window.location.replace("/absentminotaur/");
       }
     </script>
